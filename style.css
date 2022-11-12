@@ -1,0 +1,25 @@
+.container{
+  display:grid;
+  grid-template-columns: repeat(7, 80px);
+  grid-template-rows: repeat(7, 80px);
+  width:770px;
+    height:590px;
+    margin :0 auto;
+    justify-content:center;
+    background-color:orange;
+ }
+ .container div{
+  border:5px solid white;
+   border-radius:50%; 
+  outline:5px solid orange;
+  margin:10px
+ }
+ .player-one {
+  background-color: red;
+  
+}
+
+.player-two {
+  background-color: blue;
+
+}
